@@ -1,2 +1,9 @@
-# add your code here
-
+for digits in range(1,101):
+  if digits % 5 == 0 and digits % 3 == 0:
+    print("fizzbuzz")
+  elif digits % 5 == 0:
+    print("buzz")
+  elif digits % 3 == 0:
+    print("fizz")
+  else:
+    print(digits)
